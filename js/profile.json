@@ -1,10 +1,10 @@
 {
   "personalInfo": {
     "myimg": "profilePic.jpg",
-    "fname": "Shubham",
-    "mname": "Parashram",
-    "lname": "Sawant",
-    "nick": "enji",
+    "fname": "NAMGUNG",
+    "mname": "",
+    "lname": "EUNJI",
+    "nick": "sofia",
     "address": {
       "list": [
         "Gupta Layout, Mahakali road, Washim, District-Washim, Maharashtra, India 444505 ",
@@ -12,7 +12,7 @@
       ]
     },
     "email": "dmswl6578@gmail.com",
-    "mob": "+91 0000 000 000"
+    "mob": "95.02.21"
   },
   "educations": [
     {
@@ -714,37 +714,19 @@
       "link": "https://github.com/moghya/toGithub"
     }
   ],
-  "summary": "<p>Hello, I'm a Computer science enthusiast and B.Tech Information Technology graduate having 2 years of experience as Software Development Engineer in Internet/Ad-Tech industry. As of now I'm involved in developing distributed system software for Storage Management.</p>\n\n<p>I'm passionate about programming and delivering, clean, test-covered, well-designed and scalable code. I seek to learn and try to apply all of it in a way that makes life easier. I always try to design, develop and deliver technology solutions to problems around me.</p>",
+  "summary": "<p>Hello,  i'm dreaming devops engineer. i majored in computer science and worked at application software field development for 2 years. As of now i'm studying Cloud and Network. i'm passionate about programming and delivering, clean, test-covered, well-designed and scalable code so i prefer sophisticated systems. i seek to learn and try to expertise acquire on a daily basis.</p>",
   "profileLinks": [
     {
       "name": "Github",
       "icon": "github.svg",
-      "link": "https://github.com/moghya",
+      "link": "https://github.com/sofia-gi/angee.io",
       "sn": 2
     },
     {
       "name": "LinkedIn",
       "icon": "linkedin.svg",
-      "link": "https://www.linkedin.com/in/shubham-sawant-67074a86/",
+      "link": "https://blog.naver.com/dmswl6578",
       "sn": 1
-    },
-    {
-      "name": "Medium",
-      "icon": "medium.svg",
-      "link": "https://medium.com/howcatcancode",
-      "sn": 5
-    },
-    {
-      "name": "StackOverflow",
-      "icon": "stack-overflow.png",
-      "link": "https://stackoverflow.com/users/5186709/moghya",
-      "sn": 3
-    },
-    {
-      "name": "Twitter",
-      "icon": "twitter.svg",
-      "link": "https://twitter.com/moghya",
-      "sn": 4
     }
   ],
   "likes": [
