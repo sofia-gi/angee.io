@@ -149,7 +149,7 @@ $(window).resize(onWindowResize);
 var profile;
 swal({
 		title: "NAMGUNEUNJI PORTFOLIO",
-		text: "My passion is Namgung Eunji who dreams of becoming the best executive."
+		text: "I'm a very passionate person ambitious to become the best expert"
 		// buttons: ["Nope, I'm just looking around.", "Yes, I'm hiring :)"]
 		// buttons: {
 		// 	cancel: {
