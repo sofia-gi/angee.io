@@ -150,77 +150,33 @@ var profile;
 swal({
 		title: "NAMGUNEUNJI PORTFOLIO",
 		text: "I'm a very passionate person ambitious to become the best expert"
-		// buttons: ["Nope, I'm just looking around.", "Yes, I'm hiring :)"]
-		// buttons: {
-		// 	cancel: {
-		// 	  text: "Nope.",
-		// 	  value: false,
-		// 	  visible: true,
-		// 	  className: "button-cancel",
-		// 	  closeModal: true,
-		// 	},
-		// 	confirm: {
-		// 	  text: "Yes, I'm hiring.",
-		// 	  value: true,
-		// 	  visible: true,
-		// 	  className: "button-confirm",
-		// 	  closeModal: true
-		// 	}
-		// }
+		
 });
-//.then((value)=>{
-// 	if(value===true) {
-// 		swal({
-// 			title: "Hello Talent Scout,",
-// 			text: "Thank you for visiting my webspace. I hope you'll find relevant information here. If you need any other information, kindly reach to me. \n\n Do you need a copy of my resume?",
-// 			buttons: {
-// 				cancel: {
-// 				  text: "I have your resume.",
-// 				  value: false,
-// 				  visible: true,
-// 				  className: "button-cancel",
-// 				  closeModal: true,
-// 				},
-// 				confirm: {
-// 				  text: "Yes, sure.",
-// 				  value: true,
-// 				  visible: true,
-// 				  className: "button-confirm",
-// 				  closeModal: true
-// 				}
-// 			}
-// 		}).then((value)=>{
-// 			if(value===true) { 
-// 				window.open('/Resume_Shubham_Sawant.pdf');
-// 			}
-// 		})
-// 	}
-// });
 
 
 function loadMoghysSays() {
 	const moghyaSaysInnerHtml = `<div class="col m6">
-		<h6>Windows PowerShell<br/>Copyright (C) Microsoft Corporation. All rights reserved. </h6>	
+		<h3>Windows PowerShell<br/>Copyright (C) Microsoft Corporation. All rights reserved. </h3>	
 		<div class="row">
 			
 		</div>
 	</div>
 	<div class="col m6">
 		<h6 class="hcus_add">Warm Gratitudes</h6>
-		<div style="bckground: #37485D !important;">
+		<div>
 			<div class="row">
 				<div class="col m3 s3"><a href="https:https://pages.github.com/" class="cus_add">Github Pages</a></div>
 				<div class="col m3 s3"><a href="https://stackoverflow.com/" class="cus_add">Stack Overflow</a></div>
 				<div class="col m3 s3"><a href="https://jquery.com/" class="cus_add">jQuery</a></div>
 				<div class="col m3 s3"><a href="http://materializecss.com/" class="cus_add">Materialize</a></div>
 			</div>
-			<div class="row cus_add">
+			<div class="row">
 				<div class="col m3 s3"><a href="https://fonts.google.com/" class="cus_add">Google Fonts</a></div>	
 				<div class="col m3 s3"><a href="http://konpa.github.io/devicon/" class="cus_add">Devicons</a></div>
 				<div class="col m3 s3"><a href="http://www.flaticon.com/" class="cus_add">Flaticons</a></div>
 				<div class="col m3 s3"><a href="https://simpleicons.org/" class="cus_add">SimpleIcons</a></div>				
 			</div>
-			<div class="row cus_add">
+			<div class="row">
 				<div class="col m3 s3"><a href="http://noraesae.github.io/perfect-scrollbar/" class="cus_add">Perfect Scrollbar</a></div>
 				<div class="col m3 s3"><a href="http://www.mattboldt.com/demos/typed-js/" class="cus_add">TypedJs</a></div>					
 				<div class="col m3 s3"><a href="https://daneden.github.io/animate.css/" class="cus_add">Animate.CSS</a></div>
@@ -255,7 +211,7 @@ $.get("js/profile.json",
 			<li class="tab col s3"><a href="#experience">Experience</a></li>
 			<li class="tab col s3"><a href="#education">Education</a></li>
 		`);
-		$('#believe').html('<h4>I believe</h4><span></span>');
+		$('#believe').html('<h4>I AM..</h4><span></span>');
 		const typed = new Typed('#believe span', {
 			strings: profile.qoutes,
 			typeSpeed: 40,

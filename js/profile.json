@@ -457,7 +457,7 @@
       "sn": 3,
       "projectTitle": "Patient Reception System Using NFC",
       "periodStart": "May 2016",
-      "periodEnd": "Jan 2016",
+      "periodEnd": "June 2016",
       "toolsUsed": [
         "Java",
         "Eclipse"
@@ -465,24 +465,23 @@
       "tags": [
         "android"
       ],
-      "shortInfo": "Its a ready to use data structures and algorithms c++ template library.Many useful data structures and algorithms are implemented . One should just focus on his/her project necessity and dsalglib will take care of data structures and algorithms.",
+      "shortInfo": "NFC리더기와 PC를 연동해 환자의 핸드폰 고유의 UID를 PC로 넘겨 환자의 정보를 저장한 뒤 재방문시에 핸드폰을 NFC에 대기만해도 자동으로 접수되게 하며 환자의 대기시간을 줄이고 번거롭지 않게 접수를 하게 만들어 편리함을 제공",
       "link": "http://moghya.me/dsalglib/"
     },    
     {
       "sn": 2,
-      "projectTitle": "prowessIndex",
-      "periodStart": "June 2017",
-      "periodEnd": "June 2017",
+      "projectTitle": "domestic festival information site",
+      "periodStart": "08 Nov 2016",
+      "periodEnd": "09 Dec 2017",
       "toolsUsed": [
-        "python",
-        "flask",
-        "pandas"
+        "Java",
+        "oracle"
       ],
       "tags": [
-        "python",
-        "data analytics"
+        "eclipse",
+        "sts"
       ],
-      "shortInfo": "This is a simple flask web app implementation of a paper that I'm writing 'Making Sense of Numbers'. This paper proposes method for deriving inferences about prowessness of a stduent using attained graded.",
+      "shortInfo": "한눈에 국내 축제 기관과 정보를 파악하여 축제 계획을 간편하게 만들기 위해 구축",
       "link": "http://novatoscript.pythonanywhere.com/"
     }
   ],
@@ -555,5 +554,5 @@
     "If you cannot be a pencil to write someone's happiness, then try to be an erases to erase someone's sorrows.",
     "Tabs are better than spaces."
   ],
-  "helloText": "<br/><br/><p>오픈소스를 다운받아 해당 페이지를 만든 이유는 누구나 쉽게 볼 수 있으며 기본적으로 오픈소스 활용능력과 소스의 이해도를 확인해 볼 수 있을거 같아서 시작하게되었다. </p><p>처음에는 React 오픈소스를 활용해 보려했으나 해당 뷰가 꽤 맘에 들어 해당 뷰로 선택하게되었다.</p>Github로 온전히 개인적인 이유로 오픈소스를 활용해보는건 오랜만인거 같아서 꽤 재밌기도 했다 다음에는 내가 직접 오픈소스를 만들어볼 의향도 있다.<br/<br><p>The reason why I downloaded the open source and created the page is easy for anyone to see, and I started it because I thought I could check the ability to utilize the open source and understand the source.</p>"
+  "helloText": "<p>오픈소스를 다운받아 해당 페이지를 만든 이유는 누구나 쉽게 볼 수 있으며 기본적으로 오픈소스 활용능력과 소스의 이해도를 확인해 볼 수 있을거 같아서 시작하게되었다. </p><p>처음에는 React 오픈소스를 활용해 보려했으나 해당 뷰가 꽤 맘에 들어 해당 뷰로 선택하게되었다.</p>Github로 온전히 개인적인 이유로 오픈소스를 활용해보는건 오랜만인거 같아서 꽤 재밌기도 했다 다음에는 내가 직접 오픈소스를 만들어볼 의향도 있다.<br><br><p>The reason why I downloaded the open source and created the page is easy for anyone to see, and I started it because I thought I could check the ability to utilize the open source and understand the source.</p>"
 }
