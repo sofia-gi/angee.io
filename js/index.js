@@ -208,23 +208,23 @@ function loadMoghysSays() {
 	<div class="col m6">
 		<h6 class="hcus_add">Warm Gratitudes</h6>
 		<div style="bckground: #37485D !important;">
-			<div class="row cus_add">
-				<div class="col m3 s3"><a href="https:https://pages.github.com/">Github Pages</a></div>
-				<div class="col m3 s3"><a href="https://stackoverflow.com/">Stack Overflow</a></div>
-				<div class="col m3 s3"><a href="https://jquery.com/">jQuery</a></div>
-				<div class="col m3 s3"><a href="http://materializecss.com/">Materialize</a></div>
+			<div class="row">
+				<div class="col m3 s3"><a href="https:https://pages.github.com/" class="cus_add">Github Pages</a></div>
+				<div class="col m3 s3"><a href="https://stackoverflow.com/" class="cus_add">Stack Overflow</a></div>
+				<div class="col m3 s3"><a href="https://jquery.com/" class="cus_add">jQuery</a></div>
+				<div class="col m3 s3"><a href="http://materializecss.com/" class="cus_add">Materialize</a></div>
 			</div>
 			<div class="row cus_add">
-				<div class="col m3 s3"><a href="https://fonts.google.com/">Google Fonts</a></div>	
-				<div class="col m3 s3"><a href="http://konpa.github.io/devicon/">Devicons</a></div>
-				<div class="col m3 s3"><a href="http://www.flaticon.com/">Flaticons</a></div>
-				<div class="col m3 s3"><a href="https://simpleicons.org/">SimpleIcons</a></div>				
+				<div class="col m3 s3"><a href="https://fonts.google.com/" class="cus_add">Google Fonts</a></div>	
+				<div class="col m3 s3"><a href="http://konpa.github.io/devicon/" class="cus_add">Devicons</a></div>
+				<div class="col m3 s3"><a href="http://www.flaticon.com/" class="cus_add">Flaticons</a></div>
+				<div class="col m3 s3"><a href="https://simpleicons.org/" class="cus_add">SimpleIcons</a></div>				
 			</div>
 			<div class="row cus_add">
-				<div class="col m3 s3"><a href="http://noraesae.github.io/perfect-scrollbar/">Perfect Scrollbar</a></div>
-				<div class="col m3 s3"><a href="http://www.mattboldt.com/demos/typed-js/">TypedJs</a></div>					
-				<div class="col m3 s3"><a href="https://daneden.github.io/animate.css/">Animate.CSS</a></div>
-				<div class="col m3 s3"><a href="http://t4t5.github.io/sweetalert/">Sweetalert</a></div>
+				<div class="col m3 s3"><a href="http://noraesae.github.io/perfect-scrollbar/" class="cus_add">Perfect Scrollbar</a></div>
+				<div class="col m3 s3"><a href="http://www.mattboldt.com/demos/typed-js/" class="cus_add">TypedJs</a></div>					
+				<div class="col m3 s3"><a href="https://daneden.github.io/animate.css/" class="cus_add">Animate.CSS</a></div>
+				<div class="col m3 s3"><a href="http://t4t5.github.io/sweetalert/" class="cus_add">Sweetalert</a></div>
 			</div>
 		</div>
 	</div>`;
