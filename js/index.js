@@ -36,7 +36,7 @@ function loadProjects(projects){
 		if(projects[i].link!="#") tags+='<a href="'+projects[i].link+'" target="_blank"><i class="material-icons right">language</i></a>';
 		tags+='</div>';
 		project+=tags;
-		project+='</div><div class="col m6 s12 details">'+projects[i].shortInfo+'</div>';
+		project+='</div><div class="col m6 s12 details">'+projects[i].shortInfo+'</div></div>';
 		//project img_add 2020.11.27
 		//project+='<div id="awspro" class="projectImg"><img src="img/awspro.jpg"/></div></div>';
 		projectsInnerHTML+=project;
@@ -79,7 +79,7 @@ function loadEducations(educations){
 		});
 		var coursesInnerHTML = '';
 		for(j=0;j<courses.length;j++){
-				coursesInnerHTML+='<div class="row"><div class="col m2 s2">'+courses[j].courseCode+'</div><div class="col m8 s8">'+courses[j].courseName+'</div><div class="col m2 s2">'+courses[j].courseScore+'</div></div>';
+				coursesInnerHTML+='<div class="row"><div class="col m2 s2">'+courses[j].courseCode+'</div><div class="col m8 s8">'+courses[j].courseName+'</div></div>';
 		}
 		education+=coursesInnerHTML;
 		education +='</div></li></ul></div></div>';
