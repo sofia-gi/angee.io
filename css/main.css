@@ -240,3 +240,8 @@ button:hover {
 .hcus_add{
 	color: green;
 }
+
+.projectImg img{
+	width: 30%;
+	margin-left: 70%;
+}
