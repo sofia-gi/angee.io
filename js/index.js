@@ -35,10 +35,10 @@ function loadProjects(projects){
 		for(j=0;j<projects[i].tags.length;j++)tags+='<span class="tag">#'+projects[i].tags[j]+'</span>&nbsp';
 		if(projects[i].link!="#") tags+='<a href="'+projects[i].link+'" target="_blank"><i class="material-icons right">language</i></a>';
 		tags+='</div>';
+		//project img_add 2020.11.27
+		project+='<div id="awspro" class="projectImg"><img src="img/'+projects[i].imgName+'"/></div>';
 		project+=tags;
 		project+='</div><div class="col m6 s12 details">'+projects[i].shortInfo+'</div></div>';
-		//project img_add 2020.11.27
-		//project+='<div id="awspro" class="projectImg"><img src="img/awspro.jpg"/></div></div>';
 		projectsInnerHTML+=project;
 	}
 	$('#projects').html(projectsInnerHTML);
