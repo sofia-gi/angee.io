@@ -92,6 +92,10 @@ div.content {
 	overflow-y: scroll;
 }
 
+.carousel{
+	margin-top: 2%;
+}
+
 
 .tabs .tab a{
 	opacity: 1;
@@ -129,7 +133,7 @@ div.content {
 
 
 object{
-	width: 16%;
+	width: 9%;
 	margin: 1%;
 }
 

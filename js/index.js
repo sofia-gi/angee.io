@@ -36,7 +36,9 @@ function loadProjects(projects){
 		if(projects[i].link!="#") tags+='<a href="'+projects[i].link+'" target="_blank"><i class="material-icons right">language</i></a>';
 		tags+='</div>';
 		project+=tags;
-		project+='</div><div class="col m6 s12 details">'+projects[i].shortInfo+'</div></div>';
+		project+='</div><div class="col m6 s12 details">'+projects[i].shortInfo+'</div>';
+		//project img_add 2020.11.27
+		//project+='<div id="awspro" class="projectImg"><img src="img/awspro.jpg"/></div></div>';
 		projectsInnerHTML+=project;
 	}
 	$('#projects').html(projectsInnerHTML);
@@ -156,7 +158,7 @@ swal({
 
 function loadMoghysSays() {
 	const moghyaSaysInnerHtml = `<div class="col m6">
-		<h3>Windows PowerShell<br/>Copyright (C) Microsoft Corporation. All rights reserved. </h3>	
+		<h8>Windows PowerShell<br/>Copyright (C) Microsoft Corporation. All rights reserved. </h8>	
 		<div class="row">
 			
 		</div>
