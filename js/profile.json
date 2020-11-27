@@ -490,8 +490,8 @@
       "sn": 2
     },
     {
-      "name": "LinkedIn",
-      "icon": "linkedin.svg",
+      "name": "Blog",
+      "icon": "blog-solid.svg",
       "link": "https://blog.naver.com/dmswl6578",
       "sn": 1
     }
@@ -503,9 +503,9 @@
       "sn": 1
     },
     {
-      "name": "Maths",
-      "icon": "maths.svg",
-      "sn": 2
+      "name": "leanring",
+      "icon": "leanring.svg",
+      "sn": 1
     },
     {
       "name": "Armed Forces",
@@ -518,11 +518,6 @@
       "sn": 4
     },
     {
-      "name": "Singing",
-      "icon": "singer.svg",
-      "sn": 5
-    },
-    {
       "name": "Watermelon",
       "icon": "watermelon.svg",
       "sn": 6
@@ -533,13 +528,13 @@
       "sn": 7
     },
     {
-      "name": "Cycling",
-      "icon": "cycling.svg",
+      "name": "Swim",
+      "icon": "swimmer.svg",
       "sn": 8
     },
     {
-      "name": "Trekking",
-      "icon": "trek.svg",
+      "name": "Travel",
+      "icon": "tralver.svg",
       "sn": 9
     },
     {
@@ -555,5 +550,5 @@
     "If you cannot be a pencil to write someone's happiness, then try to be an erases to erase someone's sorrows.",
     "Tabs are better than spaces."
   ],
-  "helloText": "<p>Dear Visitor, Thank you for visiting my webspace.</p>\n<p>I'm working as Member of Technical Staff at <a href='https://cohesity.com'>Cohesity</a></p>\n<p>Before this I used work as Software Development Engineer at <a href='http://media.net'>Media.Net</a>. I completed  B.Tech Information Technology at <a href='http://walchandsangli.ac.in'>Walchand College of Engineering Sangli</a> and my schooling from <a href='http://jnvwashim.gov.in'>Jawahar Navodaya Vidyalaya, Washim</a>.</p>\n\n<p>I'm interested in Algorithms, System Programming, Distributed Systems and Machine Learning. I overwhelmingly like C++, Python and Javascript :)</p>\n\n<p>How can I help you?</br>I can design, develop and deliver technological solutions to your problems.</p><p>Do we have something in common? If yes, let's have a talk about it and grow together.</p> <p> We don't have anything in common?</br>That's fine,please introduce me something that I'm missing.</p>"
+  "helloText": "<p>오픈소스를 다운받아 해당 페이지를 만든 이유는 누구나 쉽게 볼 수 있으며 기본적으로 오픈소스 활용능력과 소스의 이해도를 확인해 볼 수 있을거 같아서 시작하게되었다. </p><p>처음에는 React 오픈소스를 활용해 보려했으나 해당 뷰가 꽤 맘에 들어 해당 뷰로 선택하게되었다.</p>Github로 온전히 개인적인 이유로 오픈소스를 활용해보는건 오랜만인거 같아서 꽤 재밌기도 했다 다음에는 내가 직접 오픈소스를 만들어볼 의향도 있다.<p></p><p></p>"
 }
