@@ -227,3 +227,12 @@ button:hover {
 .swal-button-container {
 	display: inline;
 }
+
+.cus_add {
+	font-weight: bold;
+	color: #958a3a;
+}
+
+.hcus_add{
+	color: #C38FE5;
+}

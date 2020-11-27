@@ -491,7 +491,7 @@
     {
       "name": "Github",
       "icon": "github.svg",
-      "link": "https://github.com/sofia-gi/angee.io",
+      "link": "https://github.com/sofia-gi",
       "sn": 2
     },
     {
@@ -555,5 +555,5 @@
     "If you cannot be a pencil to write someone's happiness, then try to be an erases to erase someone's sorrows.",
     "Tabs are better than spaces."
   ],
-  "helloText": "<p>오픈소스를 다운받아 해당 페이지를 만든 이유는 누구나 쉽게 볼 수 있으며 기본적으로 오픈소스 활용능력과 소스의 이해도를 확인해 볼 수 있을거 같아서 시작하게되었다. </p><p>처음에는 React 오픈소스를 활용해 보려했으나 해당 뷰가 꽤 맘에 들어 해당 뷰로 선택하게되었다.</p>Github로 온전히 개인적인 이유로 오픈소스를 활용해보는건 오랜만인거 같아서 꽤 재밌기도 했다 다음에는 내가 직접 오픈소스를 만들어볼 의향도 있다.<p></p><p></p>"
+  "helloText": "<br/><br/><p>오픈소스를 다운받아 해당 페이지를 만든 이유는 누구나 쉽게 볼 수 있으며 기본적으로 오픈소스 활용능력과 소스의 이해도를 확인해 볼 수 있을거 같아서 시작하게되었다. </p><p>처음에는 React 오픈소스를 활용해 보려했으나 해당 뷰가 꽤 맘에 들어 해당 뷰로 선택하게되었다.</p>Github로 온전히 개인적인 이유로 오픈소스를 활용해보는건 오랜만인거 같아서 꽤 재밌기도 했다 다음에는 내가 직접 오픈소스를 만들어볼 의향도 있다.<br/<br><p>The reason why I downloaded the open source and created the page is easy for anyone to see, and I started it because I thought I could check the ability to utilize the open source and understand the source.</p>"
 }
