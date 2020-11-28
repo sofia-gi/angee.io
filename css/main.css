@@ -167,7 +167,7 @@ object{
 	fill: white;
 }
 
-#moghyaSays{
+#eunjiSays{
 	border-top: solid white 1px;
 	font-size: 1rem;
 	margin-top: 5%
@@ -250,4 +250,8 @@ button:hover {
 	color: yellow;
 	margin-left: 40%;
 	margin-top: -7%;
+}
+
+#likes{
+	margin-top: 18%;
 }

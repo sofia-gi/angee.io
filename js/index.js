@@ -157,7 +157,7 @@ swal({
 
 
 function loadMoghysSays() {
-	const moghyaSaysInnerHtml = `<div class="col m6">
+	const eunjiSaysInnerHtml = `<div class="col m6">
 		<h8>Windows PowerShell<br/>Copyright (C) Microsoft Corporation. All rights reserved. </h8>	
 		<div class="row">
 			<p>PS c:/users/Cetificate/List></p><p class="font_y">정보처리기사</p>
@@ -190,7 +190,7 @@ function loadMoghysSays() {
 			</div>
 		</div>
 	</div>`;
-	$('#moghyaSays').html(moghyaSaysInnerHtml);
+	$('#eunjiSays').html(eunjiSaysInnerHtml);
 }
 
 function chkUser_info(name){
