@@ -202,11 +202,7 @@ function loadMoghysSays() {
 	const moghyaSaysInnerHtml = `<div class="col m6">
 		<h8>Windows PowerShell<br/>Copyright (C) Microsoft Corporation. All rights reserved. </h8>	
 		<div class="row">
-			<p>PS c:/users/Cetificate/List> <span class="font_y">정보처리기사</span></p>
-			<p>PS c:/users/Cetificate/List> <span class="font_y">AWS Certified Developer - Associate </span></p>
-			<p>PS c:/users/Cetificate/List> <span class="font_y">Network manager</span></p>
-			<p>PS c:/users/Cetificate/List> <span class="font_y">Linux master</span></p>
-			<p>PS c:/users/Cetificate/List> <span class="font_y">SQLD</span></p>
+			
 		</div>
 	</div>
 	<div class="col m6">
