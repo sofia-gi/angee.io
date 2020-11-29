@@ -136,11 +136,9 @@ function onBodyLoad(){
 function onWindowResize(){
 	const heightPageA = parseInt($('#pagea').css('height').replace('px',''),10);
 	const tabContentHeight = Math.max(heightPageA-48,(window.innerHeight - 50)) + 'px';
-	console.log(`${document.getElementsByClassName('tabs-content carousel initialized')[0].style.height } to ${tabContentHeight}`);
+	//console.log(`${document.getElementsByClassName('tabs-content carousel initialized')[0].style.height } to ${tabContentHeight}`);
 	const tabs = document.getElementsByClassName('tabs-content carousel initialized');
-	console.log(tabs);
 	if (tabs && tabs[0]) {
-		console.log('여기들어오나');
 		tabs[0].style.height = tabContentHeight;
 	}
 	$('#skills div.m2').css('height',$('#skills div.m2').css('width'));
@@ -158,7 +156,7 @@ swal({
 });
 
 
-function loadMoghysSays() {
+function loadEunjiSays() {
 	const eunjiSaysInnerHtml = `<div class="col m6">
 		<h8>Windows PowerShell<br/>Copyright (C) Microsoft Corporation. All rights reserved. </h8>	
 		<div class="row">
@@ -201,7 +199,7 @@ function chkUser_info(name){
 
 $.get("js/profile.json", 
 	function(data, status){
-		console.log('Got profile:',data,' \nwith status:',status);
+		//console.log('Got profile:',data,' \nwith status:',status);
 		if(status!=="success") {
 			window.location.href = "/error.html";
 		}
@@ -233,7 +231,6 @@ $.get("js/profile.json",
 		loadProjects(profile.projects);
 		loadWorks(profile.experince);
 		loadEducations(profile.educations);
-		loadMoghysSays();
-		console.log('body loaded calling');
+		loadEunjiSays();
 		onBodyLoad();
 });
