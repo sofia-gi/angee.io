@@ -204,7 +204,7 @@ $.get("js/profile.json",
 			window.location.href = "/error.html";
 		}
 		profile = data;
-		var pInfo = profile.personalInfo;
+		//var pInfo = profile.personalInfo;
 		$('title').html(pInfo.nick+'|Portfolio');
 		$('#name').html(pInfo.fname+' '+pInfo.lname+'<sub>&lt'+pInfo.nick+'/&gt</sub>');
 		$('#image img').attr('src','img/'+pInfo.myimg);
