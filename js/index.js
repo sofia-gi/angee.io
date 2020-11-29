@@ -138,7 +138,9 @@ function onWindowResize(){
 	const tabContentHeight = Math.max(heightPageA-48,(window.innerHeight - 50)) + 'px';
 	console.log(`${document.getElementsByClassName('tabs-content carousel initialized')[0].style.height } to ${tabContentHeight}`);
 	const tabs = document.getElementsByClassName('tabs-content carousel initialized');
+	console.log(tabs);
 	if (tabs && tabs[0]) {
+		console.log('여기들어오나');
 		tabs[0].style.height = tabContentHeight;
 	}
 	$('#skills div.m2').css('height',$('#skills div.m2').css('width'));
@@ -204,7 +206,7 @@ $.get("js/profile.json",
 			window.location.href = "/error.html";
 		}
 		profile = data;
-		//var pInfo = profile.personalInfo;
+		var pInfo = profile.personalInfo;
 		$('title').html(pInfo.nick+'|Portfolio');
 		$('#name').html(pInfo.fname+' '+pInfo.lname+'<sub>&lt'+pInfo.nick+'/&gt</sub>');
 		$('#image img').attr('src','img/'+pInfo.myimg);
