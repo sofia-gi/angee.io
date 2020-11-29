@@ -149,11 +149,10 @@ function onWindowResize(){
 $(window).resize(onWindowResize);
 
 var profile;
-swal({
-		title: "NAMGUNEUNJI PORTFOLIO",
-		text: "I'm a very passionate person ambitious to become the best expert"
-		
-});
+//swal({
+//		title: "NAMGUNEUNJI PORTFOLIO",
+//		text: "I'm a very passionate person ambitious to become the best expert"		
+//});
 
 
 function loadEunjiSays() {
