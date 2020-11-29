@@ -34,7 +34,9 @@ function loadProjects(projects){
 		tags = '<div class=row">'
 		for(j=0;j<projects[i].tags.length;j++)tags+='<span class="tag">#'+projects[i].tags[j]+'</span>&nbsp';
 		if(projects[i].link!="#") tags+='<a href="'+projects[i].link+'" target="_blank"><i class="material-icons right">language</i></a>';
-		tags+='</div>';
+		//project img_add 2020.11.27
+		//project+='<div id="awspro" class="projectImg"><img src="img/'+projects[i].imgName+'"/></div>';
+		tags+='</div>';		
 		project+=tags;
 		project+='</div><div class="col m6 s12 details">'+projects[i].shortInfo+'</div></div>';
 		projectsInnerHTML+=project;
@@ -70,14 +72,14 @@ function loadEducations(educations){
 	var i=0,j;
 	var educationsInnerHTML = '';
 	for(i=0;i<educations.length;i++){
-		education = '<div class="row education"><div class="col m6 s12">					<div class="row title">'+educations[i].course+'<hr></div><div class="row">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row">'+educations[i].inst+'</div><div class="row">'+educations[i].board+'</div>		<div class="row">Scored: '+educations[i].score+'</div></div><div class="col m6 s12 details"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><i class="material-icons">view_list</i>Completed following Core courses</div><div class="collapsible-body">';
+		education = '<div class="row education"><div class="col m6 s12"><div class="row title">'+educations[i].course+'<hr></div><div class="row">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row">'+educations[i].inst+'</div><div class="row">'+educations[i].board+'</div>		<div class="row">Scored: '+educations[i].score+'</div></div><div class="col m6 s12 details"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><i class="material-icons">view_list</i>Completed following Core courses</div><div class="collapsible-body">';
 		var courses = educations[i].courses;
 		courses.sort(function(a,b){
 			return a.sn-b.sn;
 		});
 		var coursesInnerHTML = '';
 		for(j=0;j<courses.length;j++){
-				coursesInnerHTML+='<div class="row"><div class="col m2 s2">'+courses[j].courseCode+'</div><div class="col m8 s8">'+courses[j].courseName+'</div><div class="col m2 s2">'+courses[j].courseScore+'</div></div>';
+				coursesInnerHTML+='<div class="row"><div class="col m2 s2">'+courses[j].courseCode+'</div><div class="col m8 s8">'+courses[j].courseName+'</div></div>';
 		}
 		education+=coursesInnerHTML;
 		education +='</div></li></ul></div></div>';
@@ -95,7 +97,7 @@ function loadLinks(profileLinks){
 	while(i<profileLinks.length){
 		profileLinksInnerHTML+='<div class="row">'
 		for(j=i;j<profileLinks.length&&j<i+5;j++){
-			profileLinksInnerHTML+='<div class="col s2">													<a href="'+profileLinks[j].link+'" target="_blank" >					<img src="img/'+profileLinks[j].icon+'" alt="'+profileLinks[j].name+'">															</a></div>';
+			profileLinksInnerHTML+='<div class="col s2" style="margin-left: 26%;"><a href="'+profileLinks[j].link+'" target="_blank" >					<img src="img/'+profileLinks[j].icon+'" alt="'+profileLinks[j].name+'">															</a></div>';
 		}
 		profileLinksInnerHTML+='</div>';
 		i=j;
@@ -121,7 +123,7 @@ function loadBlog() {
 }
 
 function onBodyLoad(){
-	console.log('body loaded called');
+	//console.log('body loaded called');
 	$('div.progress').css('display','none');
 	$('div.content').css('display','block');
 	$('.collapsible').collapsible({
@@ -134,7 +136,7 @@ function onBodyLoad(){
 function onWindowResize(){
 	const heightPageA = parseInt($('#pagea').css('height').replace('px',''),10);
 	const tabContentHeight = Math.max(heightPageA-48,(window.innerHeight - 50)) + 'px';
-	// console.log(`${document.getElementsByClassName('tabs-content carousel initialized')[0].style.height } to ${tabContentHeight}`);
+	//console.log(`${document.getElementsByClassName('tabs-content carousel initialized')[0].style.height } to ${tabContentHeight}`);
 	const tabs = document.getElementsByClassName('tabs-content carousel initialized');
 	if (tabs && tabs[0]) {
 		tabs[0].style.height = tabContentHeight;
@@ -148,94 +150,55 @@ $(window).resize(onWindowResize);
 
 var profile;
 swal({
-		title: "Hello World!!!",
-		text: "Hello visitor, you have landed upon little webspace of moghya. I hope you're doing well."
-		// buttons: ["Nope, I'm just looking around.", "Yes, I'm hiring :)"]
-		// buttons: {
-		// 	cancel: {
-		// 	  text: "Nope.",
-		// 	  value: false,
-		// 	  visible: true,
-		// 	  className: "button-cancel",
-		// 	  closeModal: true,
-		// 	},
-		// 	confirm: {
-		// 	  text: "Yes, I'm hiring.",
-		// 	  value: true,
-		// 	  visible: true,
-		// 	  className: "button-confirm",
-		// 	  closeModal: true
-		// 	}
-		// }
+		title: "NAMGUNEUNJI PORTFOLIO",
+		text: "I'm a very passionate person ambitious to become the best expert"		
 });
-//.then((value)=>{
-// 	if(value===true) {
-// 		swal({
-// 			title: "Hello Talent Scout,",
-// 			text: "Thank you for visiting my webspace. I hope you'll find relevant information here. If you need any other information, kindly reach to me. \n\n Do you need a copy of my resume?",
-// 			buttons: {
-// 				cancel: {
-// 				  text: "I have your resume.",
-// 				  value: false,
-// 				  visible: true,
-// 				  className: "button-cancel",
-// 				  closeModal: true,
-// 				},
-// 				confirm: {
-// 				  text: "Yes, sure.",
-// 				  value: true,
-// 				  visible: true,
-// 				  className: "button-confirm",
-// 				  closeModal: true
-// 				}
-// 			}
-// 		}).then((value)=>{
-// 			if(value===true) { 
-// 				window.open('/Resume_Shubham_Sawant.pdf');
-// 			}
-// 		})
-// 	}
-// });
 
 
-function loadMoghysSays() {
-	const moghyaSaysInnerHtml = `<div class="col m6">
-		<h6>Recipe for this website:</h6>	
+function loadEunjiSays() {
+	const eunjiSaysInnerHtml = `<div class="col m6">
+		<h8>Windows PowerShell<br/>Copyright (C) Microsoft Corporation. All rights reserved. </h8>	
 		<div class="row">
-			Would you like to have your own portfolio in this template ? It"s pretty easy, <a href="https://github.com/moghya">moghya</a> covered it up for everyone out their. 
-			All the content on this website is dynamically loaded from JSON data.
-			Fork this <a href="https://github.com/moghya/moghya.github.io/">repo</a> on github and edit <a href="https://github.com/moghya/moghya.github.io/blob/master/js/profile.json">js/profile.json</a> for adding your data.
-			<a href="https://medium.com/howcatcancode/developer-profile-template-2017-219f43147efe">Read more</a><br>
-			If you like this website, consider giving a star to its repo <a href="https://github.com/moghya/moghya.github.io/">here</a>.
+			<p>PS c:/users/Cetificate/List> <span class="font_y">정보처리기사</span></p>
+			<p>PS c:/users/Cetificate/List> <span class="font_y">AWS Certified Developer - Associate </span></p>
+			<p>PS c:/users/Cetificate/List> <span class="font_y">Network manager</span></p>
+			<p>PS c:/users/Cetificate/List> <span class="font_y">Linux master</span></p>
+			<p>PS c:/users/Cetificate/List> <span class="font_y">SQLD</span></p>
 		</div>
 	</div>
 	<div class="col m6">
-		<h6>Warm Gratitudes</h6>
-		<div class="row">
-			<div class="col m3 s3"><a href="https:https://pages.github.com/">Github Pages</a></div>
-			<div class="col m3 s3"><a href="https://stackoverflow.com/">Stack Overflow</a></div>
-			<div class="col m3 s3"><a href="https://jquery.com/">jQuery</a></div>
-			<div class="col m3 s3"><a href="http://materializecss.com/">Materialize</a></div>
-		</div>
-		<div class="row">
-			<div class="col m3 s3"><a href="https://fonts.google.com/">Google Fonts</a></div>	
-			<div class="col m3 s3"><a href="http://konpa.github.io/devicon/">Devicons</a></div>
-			<div class="col m3 s3"><a href="http://www.flaticon.com/">Flaticons</a></div>
-			<div class="col m3 s3"><a href="https://simpleicons.org/">SimpleIcons</a></div>				
-		</div>
-		<div class="row">
-			<div class="col m3 s3"><a href="http://noraesae.github.io/perfect-scrollbar/">Perfect Scrollbar</a></div>
-			<div class="col m3 s3"><a href="http://www.mattboldt.com/demos/typed-js/">TypedJs</a></div>					
-			<div class="col m3 s3"><a href="https://daneden.github.io/animate.css/">Animate.CSS</a></div>
-			<div class="col m3 s3"><a href="http://t4t5.github.io/sweetalert/">Sweetalert</a></div>
+		<h6 class="hcus_add">Warm Gratitudes</h6>
+		<div>
+			<div class="row">
+				<div class="col m3 s3"><a href="https:https://pages.github.com/" class="cus_add">Github Pages</a></div>
+				<div class="col m3 s3"><a href="https://stackoverflow.com/" class="cus_add">Stack Overflow</a></div>
+				<div class="col m3 s3"><a href="https://jquery.com/" class="cus_add">jQuery</a></div>
+				<div class="col m3 s3"><a href="http://materializecss.com/" class="cus_add">Materialize</a></div>
+			</div>
+			<div class="row">
+				<div class="col m3 s3"><a href="https://fonts.google.com/" class="cus_add">Google Fonts</a></div>	
+				<div class="col m3 s3"><a href="http://konpa.github.io/devicon/" class="cus_add">Devicons</a></div>
+				<div class="col m3 s3"><a href="http://www.flaticon.com/" class="cus_add">Flaticons</a></div>
+				<div class="col m3 s3"><a href="https://simpleicons.org/" class="cus_add">SimpleIcons</a></div>				
+			</div>
+			<div class="row">
+				<div class="col m3 s3"><a href="http://noraesae.github.io/perfect-scrollbar/" class="cus_add">Perfect Scrollbar</a></div>
+				<div class="col m3 s3"><a href="http://www.mattboldt.com/demos/typed-js/" class="cus_add">TypedJs</a></div>					
+				<div class="col m3 s3"><a href="https://daneden.github.io/animate.css/" class="cus_add">Animate.CSS</a></div>
+				<div class="col m3 s3"><a href="http://t4t5.github.io/sweetalert/" class="cus_add">Sweetalert</a></div>
+			</div>
 		</div>
 	</div>`;
-	$('#moghyaSays').html(moghyaSaysInnerHtml);
+	$('#eunjiSays').html(eunjiSaysInnerHtml);
+}
+
+function chkUser_info(name){
+
 }
 
 $.get("js/profile.json", 
 	function(data, status){
-		console.log('Got profile:',data,' \nwith status:',status);
+		//console.log('Got profile:',data,' \nwith status:',status);
 		if(status!=="success") {
 			window.location.href = "/error.html";
 		}
@@ -253,7 +216,7 @@ $.get("js/profile.json",
 			<li class="tab col s3"><a href="#experience">Experience</a></li>
 			<li class="tab col s3"><a href="#education">Education</a></li>
 		`);
-		$('#believe').html('<h4>I believe</h4><span></span>');
+		$('#believe').html('<h4>I AM..</h4><span></span>');
 		const typed = new Typed('#believe span', {
 			strings: profile.qoutes,
 			typeSpeed: 40,
@@ -267,7 +230,6 @@ $.get("js/profile.json",
 		loadProjects(profile.projects);
 		loadWorks(profile.experince);
 		loadEducations(profile.educations);
-		loadMoghysSays();
-		console.log('body loaded calling');
+		loadEunjiSays();
 		onBodyLoad();
 });
