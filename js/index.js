@@ -200,13 +200,13 @@ swal({
 
 function loadMoghysSays() {
 	const moghyaSaysInnerHtml = `<div class="col m6">
-		<h6>Recipe for this website:</h6>	
+		<h8>Windows PowerShell<br/>Copyright (C) Microsoft Corporation. All rights reserved. </h8>	
 		<div class="row">
-			Would you like to have your own portfolio in this template ? It"s pretty easy, <a href="https://github.com/moghya">moghya</a> covered it up for everyone out their. 
-			All the content on this website is dynamically loaded from JSON data.
-			Fork this <a href="https://github.com/moghya/moghya.github.io/">repo</a> on github and edit <a href="https://github.com/moghya/moghya.github.io/blob/master/js/profile.json">js/profile.json</a> for adding your data.
-			<a href="https://medium.com/howcatcancode/developer-profile-template-2017-219f43147efe">Read more</a><br>
-			If you like this website, consider giving a star to its repo <a href="https://github.com/moghya/moghya.github.io/">here</a>.
+			<p>PS c:/users/Cetificate/List> <span class="font_y">정보처리기사</span></p>
+			<p>PS c:/users/Cetificate/List> <span class="font_y">AWS Certified Developer - Associate </span></p>
+			<p>PS c:/users/Cetificate/List> <span class="font_y">Network manager</span></p>
+			<p>PS c:/users/Cetificate/List> <span class="font_y">Linux master</span></p>
+			<p>PS c:/users/Cetificate/List> <span class="font_y">SQLD</span></p>
 		</div>
 	</div>
 	<div class="col m6">
