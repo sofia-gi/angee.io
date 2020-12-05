@@ -250,7 +250,7 @@
   "qoutes": [
     "I'm not afraid to approach strangers.",
     "I prefer to work with many people rather than alone.",
-    "I try to listen to various opinions.</ul></p>"
+    "I try to listen to various opinions."
   ],
   "helloText": "<p>오픈소스를 다운받아 해당 페이지를 만든 이유는 누구나 쉽게 볼 수 있으며 기본적으로 오픈소스 활용능력과 소스의 이해도를 확인해 볼 수 있을거 같아서 시작하게되었다. </p><p>처음에는 React 오픈소스를 활용해 보려했으나 해당 뷰가 꽤 맘에 들어 해당 뷰로 선택하게되었다.</p>Github로 온전히 개인적인 이유로 오픈소스를 활용해보는건 오랜만인거 같아서 꽤 재밌기도 했다 다음에는 내가 직접 오픈소스를 만들어볼 의향도 있다.<br><br><p>My latest goal is to obtain certification on AWS Professional and improve my english. After that, I’m planning to challenge a data certificate and use Github to use various open source. My philosohpy is to acquire Knowledge related to it such as software, development, cloud, etc. so that I can challenge new fields while growing my expertise.</p>"
 }
