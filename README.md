@@ -1,7 +1,6 @@
 # portfolio
 Site link https://sofia-gi.github.io/angee.io/
-<img src=" https://sofia-gi.github.io/angee.io/img/main_img.png" width="90%"></img>
-
+![](/img/main_img.png)
 
 ### Libraries and technologies for this template:
 
