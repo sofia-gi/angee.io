@@ -1,5 +1,5 @@
 # portfolio
-![](/img/main_img.gif)
+![](/img/ezgif.com-gif-maker.gif)
 
 ### Libraries and technologies for this template:
 
